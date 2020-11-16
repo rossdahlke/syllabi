@@ -1,0 +1,137 @@
+---
+output: 
+  pdf_document:
+    keep_tex: true
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: ../svm-latex-syllabus.tex
+geometry: margin=1in
+
+title: "COMM XXX: Social Data APIs and Analysis"
+author: Ross Dahlke
+date: "Summer 2022"
+
+email: "rdahlke@stanford.edu"
+web: ""
+officehours: ""
+office: ""
+classroom: ""
+classhours: ""
+
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes:
+   - \linespread{1.05}
+---
+
+```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(fig.path='figs/')
+knitr::opts_chunk$set(cache.path='_cache/')
+knitr::opts_chunk$set(warning=F, message=F)
+# knitr::opts_knit$get(kable.force.latex = TRUE)
+```
+
+
+
+```{r dates_bib, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+mon <- as.Date("2016-08-15")
+# fri <- as.Date("2016-01-08")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+
+library(RefManageR)
+# library(knitcitations)
+# library(rcrossref)
+# bib <- ReadBib("master.bib")
+# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+```
+
+# Course Description
+
+This class will combine theoretical and technical discussions and lessons to give students the ability to conduct their own research on digital social data. Every week we will have discussions on the structure, content, and userbase of various social platforms and what that means for the data that is generated from them. We will also learn how to access data from these platforms via their web APIs. We will also learn various ways that we can analyze these data. Finally, students will be able to answer their own unique research questions. By the end of the course, students should be well positioned to conduct their own original research.
+
+**Students should have a working understanding of the statistical programming language R**. This class is not an introductory computing course. We will be covering how to access web APIs and analyze the data from these sources, but students are expected to already know basics of computing such as data types, data cleaning, and basic analysis.
+
+In addition, this course will primarily be using the `tidyverse` for programming. If you are unfamiliar with the `tidyverse` please review Hadley Wickham's [R for Data Science](https://r4ds.had.co.nz/), which can be found for free online. 
+
+This course will be primarily taught using R. Students are highly encouraged to use R. It is my opinion that R is the best choice for individuals who wish to conduct research or pursue data science. However, students are able to use Python but must be aware that they will be responsible for finding the necessary resources in Python to complete their assignments and project on their own. 
+
+# Course Objectives
+
+1. Better understand the uniqueness of digital social platforms
+
+2. How to access social data via web APIs
+
+3. How to analyze social data retrieved from the web
+
+4. Conduct and present original research
+
+# Required Readings
+
+There will not be any books that need to be bought for this course. Instead, students will have assigned readings each week. See Class Schedule below
+
+```{r, echo = FALSE, results="asis"} 
+# bib["vasquez2009twp", "wagner2007ws"]
+``` 
+
+
+## Grading Policy
+
+- **20%** of your grade will come from Platform Reviews
+
+- **30%** of your grade will come from the weekly lab assignments
+
+- **10%** of your grade will come from your project proposal
+
+- **10%** of your grade will come from your project presentation
+
+- **20%** of your grade will come from your project paper
+
+## Attendance Policy
+
+Attendance is not mandatory for this course. However, Platform Reviews will only be accepted at the beginning of class on Mondays. The labs are intended to give you enough time to work on your lab assignment in class. During lab you will have access to the instructor for questions, and you are encouraged to work with other students during the labs. 
+
+## E-mail Policy
+
+## Academic Dishonesty Policy
+
+Students are expected to abide by the Stanford Honor Code.
+
+## Disabilities Policy
+
+
+
+\newpage
+
+# Class Schedule
+
+## Week 1: Introduction
+
+  - About this course
+  - R & RStudio
+  - Rmarkdown
+
+## Week 2: Twitter
+
+## Week 3: Facebook
+
+## Week 4: Reddit
+
+## Week 5: Youtube
+
+## Week 6: News
+
+## Week 7: Project Meetings & Worktime
+
+## Week 8: Presentations
