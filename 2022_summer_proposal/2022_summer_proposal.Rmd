@@ -59,21 +59,21 @@ library(RefManageR)
 
 # Course Description
 
-This class will combine theoretical and technical discussions and lessons to give students the ability to conduct their own research on digital social data. Every week we will have discussions on the structure, content, and userbase of various social platforms and what that means for the data that is generated from them. We will also learn how to access data from these platforms via their web APIs in addition to how to analyze these data. Finally, students will be able to answer their own unique research questions. By the end of the course, students should be well positioned to conduct their own original research.
+This class will combine theoretical and technical discussions and labs to give students the ability to conduct their own research with digital social data. Every week we will have discussions on the structure, content, and userbase of various social platforms and what that means for the data that is generated from them. We will also learn how to access data from these platforms via their web APIs or other databases in addition to how to analyze these data. Finally, students will be able to answer their own unique research questions. By the end of the course, students should be well positioned to conduct their own original research.
 
 **Students should have a working understanding of the statistical programming language R**. This class is not an introductory computing course. We will be covering how to access web APIs and analyze the data from these sources, but students are expected to already know basics of computing such as data types, data cleaning, and basic analysis.
 
 In addition, this course will primarily be using the `tidyverse` for programming. If you are unfamiliar with the `tidyverse` please review Hadley Wickham's [R for Data Science](https://r4ds.had.co.nz/), which can be found for free online. 
 
-This course will be primarily taught using R. Students are highly encouraged to use R. It is my opinion that R is the best choice for individuals who wish to conduct research or pursue data science. However, students are able to use Python but must be aware that they will be responsible for finding the necessary resources in Python to complete their assignments and project on their own. 
+This course will be primarily taught using R. Students are highly encouraged to use R. It is my opinion that R is the best choice for individuals who wish to conduct computational social science research or pursue data science in industry. However, students are able to use Python but must be aware that they will be responsible for finding the necessary resources in Python to complete their assignments and project on their own. 
 
 # Course Objectives
 
 1. Better understand the uniqueness of digital social platforms
 
-2. How to access social data via web APIs
+2. Know how to access social data via web APIs
 
-3. How to analyze social data retrieved from the web
+3. Learn how to analyze social data retrieved from the web
 
 4. Conduct and present original research
 
@@ -100,9 +100,11 @@ There will not be any books that need to be bought for this course. Instead, stu
 
 ## Attendance Policy
 
-Attendance is not mandatory for this course. However, Platform Reviews will only be accepted at the beginning of class on Mondays. The labs are intended to give you enough time to work on your lab assignment in class. During lab you will have access to the instructor for questions, and you are encouraged to work with other students during the labs. 
+Attendance is not mandatory for this course. However, Platform Reviews will only be accepted at the beginning of class on Mondays. The labs are intended to give students enough time to to complete most, if not all, of the lab assignment in lab. During lab you will have access to the instructor for questions, and you are encouraged to work with other students during the labs. 
 
 ## E-mail Policy
+
+Students can expect an response within 24 hours during the week. Please start the subject line of your email with "COMM XXX: [your name]". 
 
 ## Academic Dishonesty Policy
 
